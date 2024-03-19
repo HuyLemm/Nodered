@@ -1,0 +1,3756 @@
+[
+    {
+        "id": "473437958be0a0e3",
+        "type": "tab",
+        "label": "Set Variables",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "49cef00bdab4ddde",
+        "type": "tab",
+        "label": "Log in",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7f47afb149d68101",
+        "type": "tab",
+        "label": "Sign up",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "18f444d88f7dc953",
+        "type": "tab",
+        "label": "Home Page",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b2b5656cca5ba3ca",
+        "type": "tab",
+        "label": "Pet Page",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "26a91dd510d534be",
+        "type": "tab",
+        "label": "User Page",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e07d0ab898ae9a47",
+        "type": "tab",
+        "label": "Forgotten Page",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6c25a742f859ba80",
+        "type": "tab",
+        "label": "Recover page",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b347cfd58e04c6e4",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "b67da73118bb5e9d",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "",
+            "hideToolbar": "true",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "bc2f89126019f0e0",
+        "type": "ui_group",
+        "name": "Login",
+        "tab": "8ab27e36c328566d",
+        "order": 2,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "601b906ba4251923",
+        "type": "ui_group",
+        "name": "Sign Up",
+        "tab": "4a3323a2a74b58a6",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4a3323a2a74b58a6",
+        "type": "ui_tab",
+        "name": "Sign Up",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8ab27e36c328566d",
+        "type": "ui_tab",
+        "name": "Login",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "46eed1efb767f3ec",
+        "type": "ui_tab",
+        "name": "Home Page",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b8421f9125d8ecac",
+        "type": "ui_group",
+        "name": "Home Page",
+        "tab": "46eed1efb767f3ec",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "53c1ecd5251ca5c4",
+        "type": "ui_tab",
+        "name": "Forgotten Page",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "05a9c86232cf83aa",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "53c1ecd5251ca5c4",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7223e8affacce8f1",
+        "type": "ui_tab",
+        "name": "Recover Page",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "09eea81be93f48b2",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "7223e8affacce8f1",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "dc2e2f667d4be593",
+        "type": "ui_tab",
+        "name": "Pet Page",
+        "icon": "dashboard",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3dc40735b57d665d",
+        "type": "ui_tab",
+        "name": "User Page",
+        "icon": "dashboard",
+        "order": 7,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8cd1e00f3e71b0d5",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "dc2e2f667d4be593",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d5e42ee47941e986",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "3dc40735b57d665d",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "32663322f27ebee8",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "9f26df6687e957a1",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "c251f820559d64b1",
+        "type": "firebase config",
+        "firebaseurl": "petweb-572e8-default-rtdb",
+        "loginType": "none"
+    },
+    {
+        "id": "f122256c172280fb",
+        "type": "ui_tab",
+        "name": "ChangePassword",
+        "icon": "dashboard",
+        "order": 8,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8d2b999d93505d72",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "f122256c172280fb",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "774c9aeaf75b1159",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "c827c3c36c5891f1",
+        "type": "firebase config",
+        "firebaseurl": "petweb-572e8-default-rtdb",
+        "loginType": "none"
+    },
+    {
+        "id": "05f8c148407f9d07",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "b12f2f18dc68b5ac",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b12f2f18dc68b5ac",
+        "type": "ui_tab",
+        "name": "ChangePassword",
+        "icon": "dashboard",
+        "order": 8,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c61daddf59ffed31",
+        "type": "ui_tab",
+        "name": "ChangePassword",
+        "icon": "dashboard",
+        "order": 8,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "5cc532a3b4e196bd",
+        "type": "inject",
+        "z": "473437958be0a0e3",
+        "name": "Define UserArray",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 100,
+        "wires": [
+            [
+                "ee24ec5b68673b9d"
+            ]
+        ]
+    },
+    {
+        "id": "ee24ec5b68673b9d",
+        "type": "function",
+        "z": "473437958be0a0e3",
+        "name": "In beginning or after offline app",
+        "func": "global.set(\"Username\",\"\");\nglobal.set(\"Password\",\"\");\nglobal.set(\"Email\",\"\");\nglobal.set(\"Petname\",\"\");\nglobal.set(\"LogUsername\",\"\");\nglobal.set(\"LogPassword\",\"\");\nglobal.set(\"LoggedUser\",\"\");\nglobal.set(\"ForgottenUser\",\"\");\nglobal.set(\"RecoverUsername\",\"\");\nglobal.set(\"newPassword\",\"\");\nglobal.set(\"confirmPassword\",\"\");\nglobal.set(\"changePassword\",\"\");\nglobal.set(\"confirmchangePassword\",\"\");\nglobal.set(\"oldpassword\",\"\");",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "15617d5551f78a58",
+        "type": "comment",
+        "z": "473437958be0a0e3",
+        "name": "Define variables",
+        "info": "",
+        "x": 160,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "b11584de0dfe9b99",
+        "type": "comment",
+        "z": "49cef00bdab4ddde",
+        "name": "Log In Page",
+        "info": "",
+        "x": 170,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "9812e79452d6b248",
+        "type": "ui_text",
+        "z": "49cef00bdab4ddde",
+        "group": "bc2f89126019f0e0",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "Login",
+        "label": "",
+        "format": "Login",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "30",
+        "color": "#12b4fa",
+        "x": 370,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "ae8973d3fd70b2e1",
+        "type": "ui_text_input",
+        "z": "49cef00bdab4ddde",
+        "name": "Username",
+        "label": "Username",
+        "tooltip": "",
+        "group": "bc2f89126019f0e0",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "Username",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 610,
+        "y": 200,
+        "wires": [
+            [
+                "eb9006c471b62499"
+            ]
+        ]
+    },
+    {
+        "id": "393b36069d3e252a",
+        "type": "ui_text_input",
+        "z": "49cef00bdab4ddde",
+        "name": "Password",
+        "label": "Password",
+        "tooltip": "",
+        "group": "bc2f89126019f0e0",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "password",
+        "delay": "0",
+        "topic": "Password",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 600,
+        "y": 260,
+        "wires": [
+            [
+                "8e310d34b36733e4"
+            ]
+        ]
+    },
+    {
+        "id": "946d3fd19108f14c",
+        "type": "ui_button",
+        "z": "49cef00bdab4ddde",
+        "name": "Log in",
+        "group": "bc2f89126019f0e0",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Log In",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 280,
+        "wires": [
+            [
+                "c9064b293872eccf"
+            ]
+        ]
+    },
+    {
+        "id": "30fbff9c9cf56ff0",
+        "type": "function",
+        "z": "49cef00bdab4ddde",
+        "name": "login checker",
+        "func": "var users = msg.payload; // Dữ liệu từ Firebase\nvar username = global.get(\"LogUsername\"); \nvar password = global.get(\"LogPassword\")\n\n// Duyệt qua các key của đối tượng để tìm username\nfor (var key in users) {\n    if (users.hasOwnProperty(key)) {\n        if (users[key].Username === username && users[key].Password === password) {\n            msg = { payload: \"Home Page\" };\n            return msg;\n        }\n    }\n}\n\nfor (var key in users) {\n    if (users.hasOwnProperty(key)) {\n        if (users[key].Username === username) {\n            msg = { payload: \"The password is incorrect\" };\n            return msg;\n        }\n    }\n}\n\nmsg = { payload: \"The username doesn't exist\" };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 340,
+        "wires": [
+            [
+                "692035979aed5617",
+                "0d99b9ae5f261a7e"
+            ]
+        ]
+    },
+    {
+        "id": "c9064b293872eccf",
+        "type": "function",
+        "z": "49cef00bdab4ddde",
+        "name": "Reset usr and pass",
+        "func": "var msg = { payload: \"\" };\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 280,
+        "wires": [
+            [
+                "ae8973d3fd70b2e1",
+                "393b36069d3e252a",
+                "65bf48937b3bea2e"
+            ]
+        ]
+    },
+    {
+        "id": "d1f5b2dd52315154",
+        "type": "ui_text",
+        "z": "49cef00bdab4ddde",
+        "group": "bc2f89126019f0e0",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 710,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "22fd82776d1f2134",
+        "type": "ui_text",
+        "z": "49cef00bdab4ddde",
+        "group": "bc2f89126019f0e0",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Warning",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1540,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "a5fb2c88bca4944e",
+        "type": "delay",
+        "z": "49cef00bdab4ddde",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1140,
+        "y": 440,
+        "wires": [
+            [
+                "a76d840631d23641"
+            ]
+        ]
+    },
+    {
+        "id": "a76d840631d23641",
+        "type": "change",
+        "z": "49cef00bdab4ddde",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1320,
+        "y": 440,
+        "wires": [
+            [
+                "22fd82776d1f2134"
+            ]
+        ]
+    },
+    {
+        "id": "692035979aed5617",
+        "type": "function",
+        "z": "49cef00bdab4ddde",
+        "name": "Warning",
+        "func": "var data = msg.payload;\nif (data === \"The username doesn't exist\" || data === \"The password is incorrect\"){\n    msg = { payload: data.fontcolor(\"red\") };\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 360,
+        "wires": [
+            [
+                "a5fb2c88bca4944e",
+                "22fd82776d1f2134"
+            ]
+        ]
+    },
+    {
+        "id": "0d99b9ae5f261a7e",
+        "type": "function",
+        "z": "49cef00bdab4ddde",
+        "name": "Homepage Control",
+        "func": "var data = msg.payload;\nvar username = global.get(\"LogUsername\");\n\nif (data === \"Home Page\"){\n    global.set(\"userLoggedIn\",true);\n    global.set(\"LoggedUser\", username);\n    msg.payload = {\"tab\":\"Home Page\"};\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 300,
+        "wires": [
+            [
+                "0866ac60b193b614"
+            ]
+        ]
+    },
+    {
+        "id": "0866ac60b193b614",
+        "type": "ui_ui_control",
+        "z": "49cef00bdab4ddde",
+        "name": "",
+        "events": "all",
+        "x": 1200,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c2980f4b65927d78",
+        "type": "ui_text",
+        "z": "49cef00bdab4ddde",
+        "group": "bc2f89126019f0e0",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 550,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "65bf48937b3bea2e",
+        "type": "firebase.once",
+        "z": "49cef00bdab4ddde",
+        "name": "read database",
+        "firebaseconfig": "c827c3c36c5891f1",
+        "childpath": "/UserArray",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 600,
+        "y": 340,
+        "wires": [
+            [
+                "30fbff9c9cf56ff0"
+            ]
+        ]
+    },
+    {
+        "id": "eb9006c471b62499",
+        "type": "function",
+        "z": "49cef00bdab4ddde",
+        "name": "set global ",
+        "func": "if (msg.payload !== \"\") {\n    global.set(\"LogUsername\",msg.payload);\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8e310d34b36733e4",
+        "type": "function",
+        "z": "49cef00bdab4ddde",
+        "name": "set global",
+        "func": "if (msg.payload !== \"\") {\n    global.set(\"LogPassword\",msg.payload);\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "daf3d637c870c6cc",
+        "type": "ui_button",
+        "z": "49cef00bdab4ddde",
+        "name": "Sign Up",
+        "group": "bc2f89126019f0e0",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Sign Up",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 140,
+        "y": 540,
+        "wires": [
+            [
+                "e50da3e440d8fced"
+            ]
+        ]
+    },
+    {
+        "id": "06bf4d98a8ce3f2e",
+        "type": "ui_ui_control",
+        "z": "49cef00bdab4ddde",
+        "name": "SignUp",
+        "events": "all",
+        "x": 540,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e50da3e440d8fced",
+        "type": "function",
+        "z": "49cef00bdab4ddde",
+        "name": "gotoSignUp",
+        "func": "msg.payload = {\"tab\":\"Sign Up\"};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 540,
+        "wires": [
+            [
+                "06bf4d98a8ce3f2e"
+            ]
+        ]
+    },
+    {
+        "id": "a8bfb46bca421ee0",
+        "type": "comment",
+        "z": "7f47afb149d68101",
+        "name": "Sign up page",
+        "info": "",
+        "x": 110,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "64c3fda6e6dc7ecd",
+        "type": "ui_text",
+        "z": "7f47afb149d68101",
+        "group": "601b906ba4251923",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "Sign Up",
+        "label": "",
+        "format": "Sign up",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "30",
+        "color": "#12b4fa",
+        "x": 280,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "572d6a3e4f5056fc",
+        "type": "function",
+        "z": "7f47afb149d68101",
+        "name": "Resets sign up form",
+        "func": "var msg = {payload: \"\"};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 140,
+        "y": 220,
+        "wires": [
+            [
+                "5542ccd02151f5b5"
+            ]
+        ]
+    },
+    {
+        "id": "5542ccd02151f5b5",
+        "type": "ui_form",
+        "z": "7f47afb149d68101",
+        "name": "Sign up form",
+        "label": "",
+        "group": "601b906ba4251923",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "options": [
+            {
+                "label": "Enter Username",
+                "value": "Username",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Enter Password",
+                "value": "Password",
+                "type": "password",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Enter Email",
+                "value": "Email",
+                "type": "email",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Enter Pet Name",
+                "value": "Petname",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "Username": "",
+            "Password": "",
+            "Email": "",
+            "Petname": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 390,
+        "y": 220,
+        "wires": [
+            [
+                "572d6a3e4f5056fc",
+                "2ef6532238d5fa69",
+                "b21624498ececa95"
+            ]
+        ]
+    },
+    {
+        "id": "62dc9a9558660675",
+        "type": "ui_text",
+        "z": "7f47afb149d68101",
+        "group": "601b906ba4251923",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "Show if successful or not",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1550,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "54dca6ad7a2e990f",
+        "type": "change",
+        "z": "7f47afb149d68101",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1240,
+        "y": 140,
+        "wires": [
+            [
+                "62dc9a9558660675"
+            ]
+        ]
+    },
+    {
+        "id": "ec4b908699fd3f35",
+        "type": "ui_button",
+        "z": "7f47afb149d68101",
+        "name": "Back to login",
+        "group": "601b906ba4251923",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Back to login",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 320,
+        "wires": [
+            [
+                "6c9ca251bc70d89d"
+            ]
+        ]
+    },
+    {
+        "id": "6c9ca251bc70d89d",
+        "type": "function",
+        "z": "7f47afb149d68101",
+        "name": "gotoLogin",
+        "func": "msg.payload = { \"tab\": \"Login\" };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 320,
+        "wires": [
+            [
+                "c9663bf31636f3c9"
+            ]
+        ]
+    },
+    {
+        "id": "c9663bf31636f3c9",
+        "type": "ui_ui_control",
+        "z": "7f47afb149d68101",
+        "name": "Login",
+        "events": "all",
+        "x": 530,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fc784d95fbb53f53",
+        "type": "e-mail",
+        "z": "7f47afb149d68101",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "",
+        "dname": "Email to user",
+        "x": 1290,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "926dfe5208ecc8ae",
+        "type": "function",
+        "z": "7f47afb149d68101",
+        "name": "Check info",
+        "func": "var users = msg.payload; // Dữ liệu từ Firebase\nvar username = global.get(\"Username\"); \nvar usernameExists = false;\n\n// Duyệt qua các key của đối tượng để tìm username\nfor (var key in users) {\n    if (users.hasOwnProperty(key)) {\n        if (users[key].Username === username) {\n            usernameExists = true;\n            break;\n        }\n    }\n}\n\n// Bây giờ usernameExists sẽ là true nếu username đã tồn tại\nif (usernameExists) {\n    var string = '*Username is already taken';\n    var msg1 = { payload: string.fontcolor(\"red\") };\n    return msg1;\n} else {\n    var string = 'Your account is successfully created.'\n    var msg2 = { payload: string.fontcolor(\"green\") };\n    return msg2;\n}\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 220,
+        "wires": [
+            [
+                "7033a65d53d23177",
+                "62dc9a9558660675",
+                "158d973f39abe04d",
+                "969f3527c5f1c1e2"
+            ]
+        ]
+    },
+    {
+        "id": "7033a65d53d23177",
+        "type": "delay",
+        "z": "7f47afb149d68101",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1060,
+        "y": 140,
+        "wires": [
+            [
+                "54dca6ad7a2e990f"
+            ]
+        ]
+    },
+    {
+        "id": "2ef6532238d5fa69",
+        "type": "function",
+        "z": "7f47afb149d68101",
+        "name": "setInfo",
+        "func": "global.set(\"Username\", msg.payload.Username);\nglobal.set(\"Password\", msg.payload.Password);\nglobal.set(\"Email\", msg.payload.Email);\nglobal.set(\"Petname\",msg.payload.Petname);\n\n\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "158d973f39abe04d",
+        "type": "function",
+        "z": "7f47afb149d68101",
+        "name": "Check Email",
+        "func": "var data = msg.payload;\n\nif (data === \"<font color=\\\"green\\\">Your account is successfully created.</font>\") {\n    var username = global.get(\"Username\");\n    var password = global.get(\"Password\");\n    var userEmail = global.get(\"Email\");\n    var petname = global.get(\"Petname\");\n\n    var string = \"Your account has been confirmed. Congratulations! <br> <br> Your account information: <br> Username: <b>\";\n    string += username;\n    string += \"</b> <br> Password: <b>\";\n    string += password;\n    string += \"</b> <br> Your pet name: <b>\";\n    string += petname;\n\n    msg = {\n        payload: string,\n        topic: \"Account information\",\n        to: userEmail\n    };\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 260,
+        "wires": [
+            [
+                "fc784d95fbb53f53"
+            ]
+        ]
+    },
+    {
+        "id": "eda61e18a5660f3a",
+        "type": "firebase modify",
+        "z": "7f47afb149d68101",
+        "name": "add database",
+        "firebaseconfig": "c827c3c36c5891f1",
+        "childpath": "/UserArray",
+        "method": "push",
+        "value": "msg.payload",
+        "priority": "msg.priority",
+        "x": 1340,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b21624498ececa95",
+        "type": "firebase.once",
+        "z": "7f47afb149d68101",
+        "name": "read database",
+        "firebaseconfig": "c827c3c36c5891f1",
+        "childpath": "/UserArray",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 640,
+        "y": 220,
+        "wires": [
+            [
+                "926dfe5208ecc8ae"
+            ]
+        ]
+    },
+    {
+        "id": "969f3527c5f1c1e2",
+        "type": "function",
+        "z": "7f47afb149d68101",
+        "name": "Add info",
+        "func": "var data = msg.payload;\nif (data === \"<font color=\\\"green\\\">Your account is successfully created.</font>\") {\n    var username = global.get(\"Username\");\n    var password = global.get(\"Password\"); \n    var email = global.get(\"Email\");\n    var petname = global.get(\"Petname\");\n\n    var newUser = {\n        Username: username,\n        Password: password,\n        Email: email,\n        PetName: petname,\n    };\n\n    msg.payload = newUser;\n\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 320,
+        "wires": [
+            [
+                "eda61e18a5660f3a"
+            ]
+        ]
+    },
+    {
+        "id": "68d612d2f3e6bd91",
+        "type": "comment",
+        "z": "18f444d88f7dc953",
+        "name": "Home Page",
+        "info": "",
+        "x": 530,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "7f3978969f398365",
+        "type": "ui_text",
+        "z": "18f444d88f7dc953",
+        "group": "b8421f9125d8ecac",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Home Page",
+        "label": "",
+        "format": "Home Page",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "30",
+        "color": "#12b4fa",
+        "x": 550,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "e512d773f2bacb60",
+        "type": "ui_text",
+        "z": "18f444d88f7dc953",
+        "group": "b8421f9125d8ecac",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "blank",
+        "label": "",
+        "format": "",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 530,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "ecc81ddb9a6dd4f4",
+        "type": "ui_button",
+        "z": "18f444d88f7dc953",
+        "name": "gotoPetPage",
+        "group": "b8421f9125d8ecac",
+        "order": 11,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Pet Mode",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 550,
+        "y": 280,
+        "wires": [
+            [
+                "a3fc624ad3e749d0"
+            ]
+        ]
+    },
+    {
+        "id": "8353d0c19a37007d",
+        "type": "ui_button",
+        "z": "18f444d88f7dc953",
+        "name": "gotoUserPage",
+        "group": "b8421f9125d8ecac",
+        "order": 14,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "User Mode",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 560,
+        "y": 320,
+        "wires": [
+            [
+                "2937386e985eee19"
+            ]
+        ]
+    },
+    {
+        "id": "a3fc624ad3e749d0",
+        "type": "function",
+        "z": "18f444d88f7dc953",
+        "name": "gotoPetPage",
+        "func": "msg.payload = { \"tab\": \"Pet Page\" };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 280,
+        "wires": [
+            [
+                "076ffa9940a628b8"
+            ]
+        ]
+    },
+    {
+        "id": "2937386e985eee19",
+        "type": "function",
+        "z": "18f444d88f7dc953",
+        "name": "gotoUserPage",
+        "func": "msg.payload = { \"tab\": \"User Page\" };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 320,
+        "wires": [
+            [
+                "53f8395100fe8474"
+            ]
+        ]
+    },
+    {
+        "id": "076ffa9940a628b8",
+        "type": "ui_ui_control",
+        "z": "18f444d88f7dc953",
+        "name": "",
+        "events": "all",
+        "x": 1020,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "53f8395100fe8474",
+        "type": "ui_ui_control",
+        "z": "18f444d88f7dc953",
+        "name": "",
+        "events": "all",
+        "x": 1020,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3329c89321dcb231",
+        "type": "ui_text",
+        "z": "18f444d88f7dc953",
+        "group": "b8421f9125d8ecac",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "Log out",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "20",
+        "color": "#12b4fa",
+        "x": 820,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "d9eb23feaffaf602",
+        "type": "ui_button",
+        "z": "18f444d88f7dc953",
+        "name": "Log out button",
+        "group": "b8421f9125d8ecac",
+        "order": 20,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Log out ",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 540,
+        "y": 400,
+        "wires": [
+            [
+                "6b2e998c3e62f424"
+            ]
+        ]
+    },
+    {
+        "id": "6b2e998c3e62f424",
+        "type": "function",
+        "z": "18f444d88f7dc953",
+        "name": "do Log out",
+        "func": "var check = global.get(\"userLoggedIn\");\nif (check === true)\n{\n    global.set(\"userLoggedIn\",false);\n    global.set(\"LoggedUser\",\"\");\n    global.set(\"LogUsername\",\"\");\n    global.set(\"LogPassword\",\"\");\n    msg.payload = { \"tab\": \"Login\" };\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 400,
+        "wires": [
+            [
+                "4be4a7245e4c0a63"
+            ]
+        ]
+    },
+    {
+        "id": "4be4a7245e4c0a63",
+        "type": "ui_ui_control",
+        "z": "18f444d88f7dc953",
+        "name": "",
+        "events": "all",
+        "x": 1000,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a11373bb50131b32",
+        "type": "function",
+        "z": "18f444d88f7dc953",
+        "name": "Helo,",
+        "func": "var username = global.get(\"LoggedUser\");\n\nvar string = 'Hi, '+ username;\nmsg = {payload:string};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 360,
+        "wires": [
+            [
+                "3329c89321dcb231"
+            ]
+        ]
+    },
+    {
+        "id": "d9cfe7b0585ba2db",
+        "type": "ui_text",
+        "z": "18f444d88f7dc953",
+        "group": "b8421f9125d8ecac",
+        "order": 17,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 830,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "ffddcc4bc0c2158d",
+        "type": "ui_text",
+        "z": "18f444d88f7dc953",
+        "group": "b8421f9125d8ecac",
+        "order": 24,
+        "width": 0,
+        "height": 0,
+        "name": "Huy",
+        "label": "",
+        "format": "21127056 - Lâm Thiều Huy ",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "19",
+        "color": "#000000",
+        "x": 830,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "8403820290c6ae6e",
+        "type": "ui_text",
+        "z": "18f444d88f7dc953",
+        "group": "b8421f9125d8ecac",
+        "order": 25,
+        "width": 0,
+        "height": 0,
+        "name": "An",
+        "label": "",
+        "format": "21127577 - Trịnh Hoàng An",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "19",
+        "color": "#000000",
+        "x": 950,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "80afffd08b4f1fde",
+        "type": "ui_text",
+        "z": "18f444d88f7dc953",
+        "group": "b8421f9125d8ecac",
+        "order": 22,
+        "width": 0,
+        "height": 0,
+        "name": "blank",
+        "label": "",
+        "format": "",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 830,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "755262827c7041ca",
+        "type": "ui_text",
+        "z": "18f444d88f7dc953",
+        "group": "b8421f9125d8ecac",
+        "order": 23,
+        "width": 0,
+        "height": 0,
+        "name": "blank",
+        "label": "",
+        "format": "",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 969,
+        "y": 113,
+        "wires": []
+    },
+    {
+        "id": "444ca90724fb9af1",
+        "type": "ui_text",
+        "z": "18f444d88f7dc953",
+        "group": "b8421f9125d8ecac",
+        "order": 25,
+        "width": 0,
+        "height": 0,
+        "name": "SĐT",
+        "label": "",
+        "format": "SĐT: 0765073731",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "19",
+        "color": "#000000",
+        "x": 970,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "e09609e6794b2f34",
+        "type": "ui_text",
+        "z": "18f444d88f7dc953",
+        "group": "b8421f9125d8ecac",
+        "order": 25,
+        "width": 0,
+        "height": 0,
+        "name": "ĐỊA CHỈ",
+        "label": "",
+        "format": "Địa chỉ: Trường Đại học KHTN",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "19",
+        "color": "#000000",
+        "x": 1020,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "20778e645c10548e",
+        "type": "inject",
+        "z": "18f444d88f7dc953",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 390,
+        "y": 360,
+        "wires": [
+            [
+                "a11373bb50131b32"
+            ]
+        ]
+    },
+    {
+        "id": "e59a83b38992b706",
+        "type": "mqtt in",
+        "z": "b2b5656cca5ba3ca",
+        "name": "temperature",
+        "topic": "21127577/temperature",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "774c9aeaf75b1159",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 149,
+        "y": 430,
+        "wires": [
+            [
+                "8e8c2d5c0eec91ba",
+                "d1e7142cc76b13e2"
+            ]
+        ]
+    },
+    {
+        "id": "c090ca5ee4eb11e4",
+        "type": "mqtt in",
+        "z": "b2b5656cca5ba3ca",
+        "name": "GPS",
+        "topic": "21127577/gps",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "774c9aeaf75b1159",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 149,
+        "y": 670,
+        "wires": [
+            [
+                "610b7a51107f4ee0"
+            ]
+        ]
+    },
+    {
+        "id": "610b7a51107f4ee0",
+        "type": "template",
+        "z": "b2b5656cca5ba3ca",
+        "name": "GPS",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{\n  \"name\": \"PET Location\",\n  \"lat\": \"{{payload.lat}}\",\n  \"lon\": \"{{payload.lon}}\",\n  \"icon\": \"fa-paw\",\n  \"iconColor\": \"#03fc5a\",\n  \"label\": \"PET\"\n}",
+        "output": "json",
+        "x": 329,
+        "y": 670,
+        "wires": [
+            [
+                "fa3d7f267833eb2b"
+            ]
+        ]
+    },
+    {
+        "id": "fa3d7f267833eb2b",
+        "type": "ui_worldmap",
+        "z": "b2b5656cca5ba3ca",
+        "group": "8cd1e00f3e71b0d5",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "lat": "10.74995",
+        "lon": "106.69620",
+        "zoom": "15",
+        "layer": "OSMC",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "hide",
+        "layers": "hide",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "true",
+        "coords": "none",
+        "showgrid": "false",
+        "showruler": "false",
+        "allowFileDrop": "false",
+        "path": "/worldmap",
+        "overlist": "DR,CO,RA,DN,HM",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriDG,UKOS",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 559,
+        "y": 670,
+        "wires": []
+    },
+    {
+        "id": "8e8c2d5c0eec91ba",
+        "type": "ui_gauge",
+        "z": "b2b5656cca5ba3ca",
+        "name": "",
+        "group": "8cd1e00f3e71b0d5",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temperature",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "30",
+        "max": "50",
+        "colors": [
+            "#a4ada4",
+            "#5ce600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": true,
+        "className": "",
+        "x": 389,
+        "y": 350,
+        "wires": []
+    },
+    {
+        "id": "a8cdbe6ce9a2c597",
+        "type": "mqtt out",
+        "z": "b2b5656cca5ba3ca",
+        "name": "",
+        "topic": "21127577/ringBell",
+        "qos": "",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "774c9aeaf75b1159",
+        "x": 549,
+        "y": 790,
+        "wires": []
+    },
+    {
+        "id": "8f643be901876ed9",
+        "type": "comment",
+        "z": "b2b5656cca5ba3ca",
+        "name": "Pet Page",
+        "info": "",
+        "x": 100,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "64c0e480a52f1094",
+        "type": "ui_text",
+        "z": "b2b5656cca5ba3ca",
+        "group": "8cd1e00f3e71b0d5",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 89,
+        "y": 190,
+        "wires": []
+    },
+    {
+        "id": "85ef490c41b908f6",
+        "type": "ui_button",
+        "z": "b2b5656cca5ba3ca",
+        "name": "backtoHomePage",
+        "group": "8cd1e00f3e71b0d5",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Back to Home Page",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 109,
+        "y": 250,
+        "wires": [
+            [
+                "9b5770644c8af516"
+            ]
+        ]
+    },
+    {
+        "id": "9b5770644c8af516",
+        "type": "function",
+        "z": "b2b5656cca5ba3ca",
+        "name": "backtoHomePage",
+        "func": "msg.payload = { \"tab\": \"Home Page\" };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 349,
+        "y": 250,
+        "wires": [
+            [
+                "7d8a0acef1e4ba92"
+            ]
+        ]
+    },
+    {
+        "id": "7d8a0acef1e4ba92",
+        "type": "ui_ui_control",
+        "z": "b2b5656cca5ba3ca",
+        "name": "",
+        "events": "all",
+        "x": 539,
+        "y": 250,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "976039f61f9464f0",
+        "type": "ui_switch",
+        "z": "b2b5656cca5ba3ca",
+        "name": "TURN ON LED AND RING THE BELL",
+        "label": "TURN ON LED AND RING THE BELL",
+        "tooltip": "",
+        "group": "8cd1e00f3e71b0d5",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "payload",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "str",
+        "onicon": "fa-bell",
+        "oncolor": "RED",
+        "offvalue": "false",
+        "offvalueType": "str",
+        "officon": "fa-bell",
+        "offcolor": "Black",
+        "animate": true,
+        "className": "",
+        "x": 229,
+        "y": 790,
+        "wires": [
+            [
+                "a8cdbe6ce9a2c597"
+            ]
+        ],
+        "icon": "font-awesome/fa-bell"
+    },
+    {
+        "id": "5261a5ea5411cb68",
+        "type": "e-mail",
+        "z": "b2b5656cca5ba3ca",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "",
+        "dname": "Email to user",
+        "x": 889,
+        "y": 430,
+        "wires": []
+    },
+    {
+        "id": "d1e7142cc76b13e2",
+        "type": "function",
+        "z": "b2b5656cca5ba3ca",
+        "name": "Check Temperature",
+        "func": "var temperature = msg.payload;\nvar lastSent = global.get(\"lastSentEmailTime\") || 0;\n\nvar currentTime = new Date().getTime(); \nvar minTemp = 36;\nvar maxTemp = 40;\nvar userEmail = global.get(\"UserEmail\")\nvar sendInterval = 60 * 60 * 1000; \nif ((temperature < minTemp || temperature > maxTemp) && (currentTime - lastSent > sendInterval))  {\n    \n    var warningMessage = \"Cảnh báo nhiệt độ! Nhiệt độ hiện tại là: \" + temperature + \"°C\";\n    global.set(\"lastSentEmailTime\", currentTime);\n     msg = {\n        payload:warningMessage,\n        topic: \"Cảnh báo nhiệt độ!\",\n        to: userEmail\n    };\n    return msg; \n} else {\n    return null; \n}\n",
+        "outputs": 1,
+        "timeout": "3600",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 529,
+        "y": 430,
+        "wires": [
+            [
+                "5261a5ea5411cb68"
+            ]
+        ]
+    },
+    {
+        "id": "17445607759a1d3f",
+        "type": "function",
+        "z": "b2b5656cca5ba3ca",
+        "name": "Get Email",
+        "func": "var users = msg.payload;\nvar username = global.get(\"LogUsername\");\n\nfor (var key in users) {\n    if (users.hasOwnProperty(key)) {\n        if (users[key].Username === username) {\n            var UserEmail = users[key].Email;\n            global.set(\"UserEmail\", UserEmail); // Lưu email vào global context\n            break;\n        }\n    }\n}\n\nif (typeof UserEmail === 'undefined' || UserEmail === '') {\n    return null;\n} else {\n\n    return { email: UserEmail };\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 519,
+        "y": 530,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cc8815c4932cb3c5",
+        "type": "firebase.on",
+        "z": "b2b5656cca5ba3ca",
+        "name": "Database",
+        "firebaseconfig": "c827c3c36c5891f1",
+        "childpath": "/UserArray",
+        "atStart": true,
+        "eventType": "value",
+        "queries": [],
+        "x": 299,
+        "y": 530,
+        "wires": [
+            [
+                "17445607759a1d3f"
+            ]
+        ]
+    },
+    {
+        "id": "59c6a6c72823fd8e",
+        "type": "comment",
+        "z": "26a91dd510d534be",
+        "name": "User Page",
+        "info": "",
+        "x": 300,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "bc9c98aff46960f8",
+        "type": "ui_text",
+        "z": "26a91dd510d534be",
+        "group": "d5e42ee47941e986",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "user",
+        "label": "",
+        "format": "User Information",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "30",
+        "color": "#12b4fa",
+        "x": 290,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "8c404a53f87fc820",
+        "type": "ui_button",
+        "z": "26a91dd510d534be",
+        "name": "backtoHomePage",
+        "group": "d5e42ee47941e986",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Back to Home Page",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 330,
+        "y": 380,
+        "wires": [
+            [
+                "9eebdd013fa51a8d"
+            ]
+        ]
+    },
+    {
+        "id": "9eebdd013fa51a8d",
+        "type": "function",
+        "z": "26a91dd510d534be",
+        "name": "backtoHomePage",
+        "func": "msg.payload = { \"tab\": \"Home Page\" };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 380,
+        "wires": [
+            [
+                "f48eea6ae581c56d"
+            ]
+        ]
+    },
+    {
+        "id": "f48eea6ae581c56d",
+        "type": "ui_ui_control",
+        "z": "26a91dd510d534be",
+        "name": "",
+        "events": "all",
+        "x": 700,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0d35c1b61d144751",
+        "type": "firebase.once",
+        "z": "26a91dd510d534be",
+        "name": "read database",
+        "firebaseconfig": "c827c3c36c5891f1",
+        "childpath": "/UserArray",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 500,
+        "y": 120,
+        "wires": [
+            [
+                "5b293b65c1dbe680",
+                "871a60568205d0b6",
+                "3c9314b1b1c6f336",
+                "9064568743a38c65"
+            ]
+        ]
+    },
+    {
+        "id": "122cf59d5ac20a2b",
+        "type": "inject",
+        "z": "26a91dd510d534be",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 310,
+        "y": 200,
+        "wires": [
+            [
+                "0d35c1b61d144751"
+            ]
+        ]
+    },
+    {
+        "id": "5b293b65c1dbe680",
+        "type": "function",
+        "z": "26a91dd510d534be",
+        "name": "takeInfo",
+        "func": "var users = msg.payload;\nvar username = global.get(\"LoggedUser\");\n\nfor (var key in users) {\n    if (users.hasOwnProperty(key)) {\n        if (users[key].Username === username) {\n            var msg1 = \"<b> <br> Username: <b>\" + users[key].Username;\n            var string = msg1;\n        }\n    }\n}\nmsg = {payload:string};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 80,
+        "wires": [
+            [
+                "a2689db0783323da"
+            ]
+        ]
+    },
+    {
+        "id": "a2689db0783323da",
+        "type": "ui_text",
+        "z": "26a91dd510d534be",
+        "group": "d5e42ee47941e986",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "showInfo",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "19",
+        "color": "#000000",
+        "x": 880,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "564668bef0066c4d",
+        "type": "ui_text",
+        "z": "26a91dd510d534be",
+        "group": "d5e42ee47941e986",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "name": "blank",
+        "label": "",
+        "format": "",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1010,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "3c9314b1b1c6f336",
+        "type": "function",
+        "z": "26a91dd510d534be",
+        "name": "takeInfo",
+        "func": "var users = msg.payload;\nvar username = global.get(\"LoggedUser\");\n\nfor (var key in users) {\n    if (users.hasOwnProperty(key)) {\n        if (users[key].Username === username) {\n            var msg3 = \"<b> <br> Email: <b>\" + users[key].Email;\n            var string = msg3;\n        }\n    }\n}\nmsg = { payload: string };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 160,
+        "wires": [
+            [
+                "ab1d0f97a4139dbf"
+            ]
+        ]
+    },
+    {
+        "id": "ab1d0f97a4139dbf",
+        "type": "ui_text",
+        "z": "26a91dd510d534be",
+        "group": "d5e42ee47941e986",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "showInfo",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "18",
+        "color": "#000000",
+        "x": 880,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "871a60568205d0b6",
+        "type": "function",
+        "z": "26a91dd510d534be",
+        "name": "takeInfo",
+        "func": "var users = msg.payload;\nvar username = global.get(\"LoggedUser\");\n\nfor (var key in users) {\n    if (users.hasOwnProperty(key)) {\n        if (users[key].Username === username) {\n            var msg2 = \"<b> <br> Password: <b>\" + users[key].Password;\n            var string = msg2;\n        }\n    }\n}\nmsg = {payload:string};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 120,
+        "wires": [
+            [
+                "1671988b1a820716"
+            ]
+        ]
+    },
+    {
+        "id": "1671988b1a820716",
+        "type": "ui_text",
+        "z": "26a91dd510d534be",
+        "group": "d5e42ee47941e986",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "showInfo",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "19",
+        "color": "#000000",
+        "x": 880,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "9064568743a38c65",
+        "type": "function",
+        "z": "26a91dd510d534be",
+        "name": "takeInfo",
+        "func": "var users = msg.payload;\nvar username = global.get(\"LoggedUser\");\n\nfor (var key in users) {\n    if (users.hasOwnProperty(key)) {\n        if (users[key].Username === username) {\n            var msg4 = \"<b> <br> Pet Name: <b>\" + users[key].PetName;\n            var string = msg4;\n        }\n    }\n}\nmsg = {payload:string};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 200,
+        "wires": [
+            [
+                "26f13d0af59d2f8f"
+            ]
+        ]
+    },
+    {
+        "id": "26f13d0af59d2f8f",
+        "type": "ui_text",
+        "z": "26a91dd510d534be",
+        "group": "d5e42ee47941e986",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "showInfo",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "19",
+        "color": "#000000",
+        "x": 880,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "fc7efcf8ddee3da8",
+        "type": "ui_button",
+        "z": "26a91dd510d534be",
+        "name": "Change Password",
+        "group": "d5e42ee47941e986",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Change Password",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 300,
+        "wires": [
+            [
+                "233123c784ad471e"
+            ]
+        ]
+    },
+    {
+        "id": "233123c784ad471e",
+        "type": "function",
+        "z": "26a91dd510d534be",
+        "name": "gotoLogin",
+        "func": "msg.payload = { \"tab\": \"ChangePassword\" };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 300,
+        "wires": [
+            [
+                "a5b55ed754f1bc2c"
+            ]
+        ]
+    },
+    {
+        "id": "a5b55ed754f1bc2c",
+        "type": "ui_ui_control",
+        "z": "26a91dd510d534be",
+        "name": "ChangePassword",
+        "events": "all",
+        "x": 530,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a88c625e76019480",
+        "type": "firebase.once",
+        "z": "26a91dd510d534be",
+        "name": "read database",
+        "firebaseconfig": "c827c3c36c5891f1",
+        "childpath": "/UserArray",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 1100,
+        "y": 280,
+        "wires": [
+            [
+                "e960f22ac13eaaec"
+            ]
+        ]
+    },
+    {
+        "id": "e960f22ac13eaaec",
+        "type": "function",
+        "z": "26a91dd510d534be",
+        "name": "check",
+        "func": "var users = msg.payload;\nvar password = global.get(\"oldpassword\");\nvar username = global.get(\"LoggedUser\");\nvar newpassword = global.get(\"changePassword\");\nvar confirmpassword = global.get(\"confirmchangePassword\");\nvar usernameExists = false;\nvar string, msg1, msg2;\n\n// Duyệt qua các key của đối tượng để tìm username\nfor (var key in users) {\n    if (users.hasOwnProperty(key)) {\n        if (users[key].Username === username && newpassword === confirmpassword) {\n            if (users[key].Password === password){\n                string = 'Your password has been reset successfully.';\n                msg1 = { payload: string.fontcolor(\"green\") };\n                return msg1;\n            }\n            if (users[key].Password !== password){\n                string = 'The old password do not match.';\n                msg1 = { payload: string.fontcolor(\"red\") };\n                return msg1;\n            }\n        }\n    }\n}\nstring = 'The new passwords do not match.';\nmsg1 = { payload: string.fontcolor(\"red\") };\nreturn msg1;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 280,
+        "wires": [
+            [
+                "7a1109d82124aa85",
+                "335d5f106a0b0a73",
+                "70d8f81c462945fe"
+            ]
+        ]
+    },
+    {
+        "id": "d33986a19693520b",
+        "type": "comment",
+        "z": "26a91dd510d534be",
+        "name": "Change password",
+        "info": "",
+        "x": 970,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "81ce1890616dd9f8",
+        "type": "ui_form",
+        "z": "26a91dd510d534be",
+        "name": "form",
+        "label": "",
+        "group": "05f8c148407f9d07",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Enter password",
+                "value": "Password",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Enter new password",
+                "value": "newPassword",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Confirm new password",
+                "value": "confirmPassword",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "Password": "",
+            "newPassword": "",
+            "confirmPassword": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 930,
+        "y": 280,
+        "wires": [
+            [
+                "a88c625e76019480",
+                "028dc13795669ff9"
+            ]
+        ]
+    },
+    {
+        "id": "028dc13795669ff9",
+        "type": "function",
+        "z": "26a91dd510d534be",
+        "name": "set global",
+        "func": "global.set(\"changePassword\",msg.payload.newPassword);\nglobal.set(\"confirmchangePassword\",msg.payload.confirmPassword);\nglobal.set(\"oldpassword\",msg.payload.Password);\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1180,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0efa3e3170a49e79",
+        "type": "firebase modify",
+        "z": "26a91dd510d534be",
+        "name": "add database",
+        "firebaseconfig": "c827c3c36c5891f1",
+        "childpath": "/UserArray",
+        "method": "update",
+        "value": "msg.payload",
+        "priority": "msg.priority",
+        "x": 2100,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a1f3fea3c82db897",
+        "type": "firebase.once",
+        "z": "26a91dd510d534be",
+        "name": "read database",
+        "firebaseconfig": "c827c3c36c5891f1",
+        "childpath": "/UserArray",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 1640,
+        "y": 380,
+        "wires": [
+            [
+                "b3fdeebc92a42cea"
+            ]
+        ]
+    },
+    {
+        "id": "b3fdeebc92a42cea",
+        "type": "function",
+        "z": "26a91dd510d534be",
+        "name": "Update database",
+        "func": "var users = msg.payload;\nvar username = global.get(\"LoggedUser\");\nvar newpassword = global.get(\"changePassword\");\n\nfor (var key in users) {\n    if (users.hasOwnProperty(key)) {\n        if (users[key].Username === username) {\n            users[key].Password = newpassword;\n            msg.payload = users;\n        }\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1850,
+        "y": 380,
+        "wires": [
+            [
+                "0efa3e3170a49e79"
+            ]
+        ]
+    },
+    {
+        "id": "d1e6d8648c70ba19",
+        "type": "ui_text",
+        "z": "26a91dd510d534be",
+        "group": "05f8c148407f9d07",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "Change Password",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "30",
+        "color": "#12b4fa",
+        "x": 950,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "7a1109d82124aa85",
+        "type": "ui_text",
+        "z": "26a91dd510d534be",
+        "group": "05f8c148407f9d07",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1970,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "c29592f378370356",
+        "type": "ui_button",
+        "z": "26a91dd510d534be",
+        "name": "backtoUserPage",
+        "group": "05f8c148407f9d07",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Back to User Page",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 930,
+        "y": 460,
+        "wires": [
+            [
+                "55c3654ea7b9225e"
+            ]
+        ]
+    },
+    {
+        "id": "55c3654ea7b9225e",
+        "type": "function",
+        "z": "26a91dd510d534be",
+        "name": "backtoUserPage",
+        "func": "msg.payload = { \"tab\": \"User Page\" };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1130,
+        "y": 460,
+        "wires": [
+            [
+                "aa479e0461b01e26"
+            ]
+        ]
+    },
+    {
+        "id": "aa479e0461b01e26",
+        "type": "ui_ui_control",
+        "z": "26a91dd510d534be",
+        "name": "",
+        "events": "all",
+        "x": 1300,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "335d5f106a0b0a73",
+        "type": "delay",
+        "z": "26a91dd510d534be",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1500,
+        "y": 200,
+        "wires": [
+            [
+                "e5acd122a1b65b5a"
+            ]
+        ]
+    },
+    {
+        "id": "e5acd122a1b65b5a",
+        "type": "change",
+        "z": "26a91dd510d534be",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1740,
+        "y": 220,
+        "wires": [
+            [
+                "7a1109d82124aa85"
+            ]
+        ]
+    },
+    {
+        "id": "70d8f81c462945fe",
+        "type": "function",
+        "z": "26a91dd510d534be",
+        "name": "checkValid",
+        "func": "var data = msg.payload;\nif (data === \"<font color=\\\"green\\\">Your password has been reset successfully.</font>\"){\n    return msg;\n}\nelse{\n    return null;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1450,
+        "y": 380,
+        "wires": [
+            [
+                "a1f3fea3c82db897"
+            ]
+        ]
+    },
+    {
+        "id": "75a046b6353978da",
+        "type": "ui_button",
+        "z": "e07d0ab898ae9a47",
+        "name": "Forgotten password?",
+        "group": "bc2f89126019f0e0",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Forgotten password?",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 200,
+        "y": 260,
+        "wires": [
+            [
+                "7c270620f4b0ae24"
+            ]
+        ]
+    },
+    {
+        "id": "7c270620f4b0ae24",
+        "type": "function",
+        "z": "e07d0ab898ae9a47",
+        "name": "gotoForgottenPage",
+        "func": "msg.payload = { \"tab\": \"Forgotten Page\" };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 260,
+        "wires": [
+            [
+                "94a2ec7d057e940c"
+            ]
+        ]
+    },
+    {
+        "id": "94a2ec7d057e940c",
+        "type": "ui_ui_control",
+        "z": "e07d0ab898ae9a47",
+        "name": "ForgottenPage",
+        "events": "all",
+        "x": 640,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c1d5821f62ce9188",
+        "type": "ui_text",
+        "z": "e07d0ab898ae9a47",
+        "group": "05a9c86232cf83aa",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "Recover password",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "30",
+        "color": "#12b4fa",
+        "x": 810,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "3df0175d0f1cc202",
+        "type": "ui_form",
+        "z": "e07d0ab898ae9a47",
+        "name": "Username",
+        "label": "",
+        "group": "05a9c86232cf83aa",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Enter your username",
+                "value": "Username",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "Username": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "form1",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 430,
+        "y": 340,
+        "wires": [
+            [
+                "ae077d24997638c5",
+                "0530797aac5e87ad",
+                "75da1b5728c42ed9"
+            ]
+        ]
+    },
+    {
+        "id": "0d53dba99df13173",
+        "type": "ui_button",
+        "z": "e07d0ab898ae9a47",
+        "name": "Back to login",
+        "group": "05a9c86232cf83aa",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Back to login",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 590,
+        "y": 460,
+        "wires": [
+            [
+                "a0c3693c06834577"
+            ]
+        ]
+    },
+    {
+        "id": "a0c3693c06834577",
+        "type": "function",
+        "z": "e07d0ab898ae9a47",
+        "name": "gotoLogin",
+        "func": "msg.payload = { \"tab\": \"Login\" };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 460,
+        "wires": [
+            [
+                "5b06fd10773f78a9"
+            ]
+        ]
+    },
+    {
+        "id": "5b06fd10773f78a9",
+        "type": "ui_ui_control",
+        "z": "e07d0ab898ae9a47",
+        "name": "Login",
+        "events": "all",
+        "x": 970,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ae077d24997638c5",
+        "type": "function",
+        "z": "e07d0ab898ae9a47",
+        "name": "Resets sign up form",
+        "func": "var msg = {payload: \"\"};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 200,
+        "y": 340,
+        "wires": [
+            [
+                "3df0175d0f1cc202"
+            ]
+        ]
+    },
+    {
+        "id": "86c7bceb5cb9e742",
+        "type": "function",
+        "z": "e07d0ab898ae9a47",
+        "name": "Check if username is ok and show noti",
+        "func": "var users = msg.payload; // Dữ liệu từ Firebase\nvar username = global.get(\"ForgottenUser\");\nvar usernameExists = false;\nvar string, msg1, msg2;\n\n// Duyệt qua các key của đối tượng để tìm username\nfor (var key in users) {\n    if (users.hasOwnProperty(key)) {\n        if (users[key].Username === username) {\n            usernameExists = true;\n            break;\n        }\n    }\n}\n\n// Bây giờ usernameExists sẽ là true nếu username đã tồn tại\nif (usernameExists) {\n    string = 'Recovery mail has been sent to your mail.';\n    msg1 = { payload: string.fontcolor(\"green\") };\n    return msg1;\n} else {\n    string = '*Username cannot be found.';\n    msg2 = { payload: string.fontcolor(\"red\") };\n    return msg2;\n}\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 950,
+        "y": 340,
+        "wires": [
+            [
+                "76faea59f631060d",
+                "fba4f86fe4d5a06e",
+                "671d2e1b85a78a80"
+            ]
+        ]
+    },
+    {
+        "id": "76faea59f631060d",
+        "type": "ui_text",
+        "z": "e07d0ab898ae9a47",
+        "group": "05a9c86232cf83aa",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "Show response",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1620,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "fba4f86fe4d5a06e",
+        "type": "delay",
+        "z": "e07d0ab898ae9a47",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1240,
+        "y": 400,
+        "wires": [
+            [
+                "ce95fcb2d6302cb2"
+            ]
+        ]
+    },
+    {
+        "id": "ce95fcb2d6302cb2",
+        "type": "change",
+        "z": "e07d0ab898ae9a47",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1420,
+        "y": 400,
+        "wires": [
+            [
+                "76faea59f631060d"
+            ]
+        ]
+    },
+    {
+        "id": "1e0e8ff3fbdc4aa5",
+        "type": "e-mail",
+        "z": "e07d0ab898ae9a47",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "",
+        "dname": "Email to user",
+        "x": 1830,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "5c7b9e4d094d9249",
+        "type": "function",
+        "z": "e07d0ab898ae9a47",
+        "name": "Check and send mail",
+        "func": "var users = msg.payload;\nvar username = global.get(\"ForgottenUser\");\nvar linkId = (Math.random() + 1).toString(36).substring(7);\nglobal.set(linkId, { username: username, used: false });\n\n// Chuẩn bị URL và tin nhắn email\nvar resetUrl = `http://127.0.0.1:1880/reset-password/${linkId}`;\n    \nfor (var key in users) {\n    if (users.hasOwnProperty(key)) {\n        if (users[key].Username === username) {\n            var email = users[key].Email;\n        }\n    }\n}\n\nmsg.payload = `Hi ${username},\\n\\nYou have requested to reset your password. Please click on the following link to reset your password: ${resetUrl}`;\nmsg.topic = \"Password Reset\";\nmsg.to = email;\nreturn msg; \n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1620,
+        "y": 260,
+        "wires": [
+            [
+                "1e0e8ff3fbdc4aa5"
+            ]
+        ]
+    },
+    {
+        "id": "d3c0e8463f1ffc3d",
+        "type": "http in",
+        "z": "e07d0ab898ae9a47",
+        "name": "Reset",
+        "url": "/reset-password/:linkId",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 600,
+        "wires": [
+            [
+                "a51e5d900161a21c"
+            ]
+        ]
+    },
+    {
+        "id": "a51e5d900161a21c",
+        "type": "function",
+        "z": "e07d0ab898ae9a47",
+        "name": "Solve link",
+        "func": "var linkId = msg.req.params.linkId;\nvar resetRequest = global.get(linkId);\n\n\nif (resetRequest && !resetRequest.used) {\n    global.set(linkId, { username: resetRequest.username, used: true });\n    msg.payload = \"Please return to the Node-RED dashboard to reset your password.\";\n} else {\n    msg.payload = \"Invalid or expired link.\";\n}\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 600,
+        "wires": [
+            [
+                "f334bb24e82c7571",
+                "b3d16b1dea77e0ab"
+            ]
+        ]
+    },
+    {
+        "id": "f334bb24e82c7571",
+        "type": "function",
+        "z": "e07d0ab898ae9a47",
+        "name": "gotoRecoverForm",
+        "func": "var linkId = msg.req.params.linkId;\nvar resetRequest = global.get(linkId);\n\nif (resetRequest && resetRequest.used === true) {\n    msg.payload = { \"tab\": \"Recover Page\" };\n    return msg;\n} else {\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 560,
+        "wires": [
+            [
+                "b4a067ef8988793a"
+            ]
+        ]
+    },
+    {
+        "id": "b4a067ef8988793a",
+        "type": "ui_ui_control",
+        "z": "e07d0ab898ae9a47",
+        "name": "RecoverForm",
+        "events": "all",
+        "x": 740,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "71a93f71dd349449",
+        "type": "comment",
+        "z": "e07d0ab898ae9a47",
+        "name": "Forgotten Page",
+        "info": "",
+        "x": 140,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "b3d16b1dea77e0ab",
+        "type": "http response",
+        "z": "e07d0ab898ae9a47",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 530,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "75da1b5728c42ed9",
+        "type": "firebase.once",
+        "z": "e07d0ab898ae9a47",
+        "name": "read database",
+        "firebaseconfig": "c827c3c36c5891f1",
+        "childpath": "/UserArray",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 660,
+        "y": 340,
+        "wires": [
+            [
+                "86c7bceb5cb9e742"
+            ]
+        ]
+    },
+    {
+        "id": "0530797aac5e87ad",
+        "type": "function",
+        "z": "e07d0ab898ae9a47",
+        "name": "set global",
+        "func": "if (msg.payload !== \"\") {\n    global.set(\"ForgottenUser\", msg.payload.Username);\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "671d2e1b85a78a80",
+        "type": "function",
+        "z": "e07d0ab898ae9a47",
+        "name": "checkValid",
+        "func": "var data = msg.payload;\nif (data === \"<font color=\\\"green\\\">Recovery mail has been sent to your mail.</font>\"){\n    return msg;\n}\nelse{\n    return null;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1230,
+        "y": 260,
+        "wires": [
+            [
+                "31788f14a0be002d"
+            ]
+        ]
+    },
+    {
+        "id": "31788f14a0be002d",
+        "type": "firebase.once",
+        "z": "e07d0ab898ae9a47",
+        "name": "read database",
+        "firebaseconfig": "c827c3c36c5891f1",
+        "childpath": "/UserArray",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 1420,
+        "y": 260,
+        "wires": [
+            [
+                "5c7b9e4d094d9249"
+            ]
+        ]
+    },
+    {
+        "id": "42c0daccb2a832cb",
+        "type": "ui_form",
+        "z": "6c25a742f859ba80",
+        "name": "Change password",
+        "label": "",
+        "group": "09eea81be93f48b2",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Enter username",
+                "value": "Username",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Enter new password",
+                "value": "newPassword",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Confirm new password",
+                "value": "confirmPassword",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "Username": "",
+            "newPassword": "",
+            "confirmPassword": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "form",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 370,
+        "y": 340,
+        "wires": [
+            [
+                "ff84bf5148bdd4a3",
+                "29c0cd14a3885f82",
+                "8d695e92338ab3c9"
+            ]
+        ]
+    },
+    {
+        "id": "6373c55a63375296",
+        "type": "ui_text",
+        "z": "6c25a742f859ba80",
+        "group": "09eea81be93f48b2",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "Send success or not",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1060,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "989eabfa667956f6",
+        "type": "delay",
+        "z": "6c25a742f859ba80",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1080,
+        "y": 320,
+        "wires": [
+            [
+                "685d9f78e57c2fe4"
+            ]
+        ]
+    },
+    {
+        "id": "685d9f78e57c2fe4",
+        "type": "change",
+        "z": "6c25a742f859ba80",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1320,
+        "y": 400,
+        "wires": [
+            [
+                "6373c55a63375296"
+            ]
+        ]
+    },
+    {
+        "id": "ff84bf5148bdd4a3",
+        "type": "function",
+        "z": "6c25a742f859ba80",
+        "name": "Resets sign up form",
+        "func": "var msg = {payload: \"\"};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 140,
+        "y": 340,
+        "wires": [
+            [
+                "42c0daccb2a832cb"
+            ]
+        ]
+    },
+    {
+        "id": "06f67d0913c53b9a",
+        "type": "comment",
+        "z": "6c25a742f859ba80",
+        "name": "Recover Page",
+        "info": "",
+        "x": 130,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "c17c1229507231b6",
+        "type": "ui_text",
+        "z": "6c25a742f859ba80",
+        "group": "09eea81be93f48b2",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "Recover password",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "30",
+        "color": "#12b4fa",
+        "x": 70,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "f43e525f66b6d10f",
+        "type": "function",
+        "z": "6c25a742f859ba80",
+        "name": "Check",
+        "func": "var users = msg.payload;\nvar username = global.get(\"RecoverUsername\");\nvar newPassword = global.get(\"newPassword\");\nvar confirmPassword = global.get(\"confirmPassword\");\nvar usernameExists = false;\nvar string, msg1, msg2;\n\n// Duyệt qua các key của đối tượng để tìm username\nfor (var key in users) {\n    if (users.hasOwnProperty(key)) {\n        if (users[key].Username === username) {\n            usernameExists = true;\n        }\n        if (users[key].Username === username && newPassword === confirmPassword) {\n            string = 'Your password has been reset successfully.';\n            msg1 = { payload: string.fontcolor(\"green\") };\n            return msg1;\n        }\n    }\n}\n// Bây giờ usernameExists sẽ là true nếu username đã tồn tại\nif (usernameExists) {\n    string = 'The passwords do not match.';\n    msg1 = { payload: string.fontcolor(\"red\") };\n    return msg1;\n} else {\n    string = '*Username cannot be found.';\n    msg2 = { payload: string.fontcolor(\"red\") };\n    return msg2;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 340,
+        "wires": [
+            [
+                "989eabfa667956f6",
+                "6373c55a63375296",
+                "1836dc165dec9222"
+            ]
+        ]
+    },
+    {
+        "id": "9167b5e82faf0565",
+        "type": "ui_button",
+        "z": "6c25a742f859ba80",
+        "name": "Back to login",
+        "group": "09eea81be93f48b2",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Back to login",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 440,
+        "wires": [
+            [
+                "b87c864f85ac6cdb"
+            ]
+        ]
+    },
+    {
+        "id": "b87c864f85ac6cdb",
+        "type": "function",
+        "z": "6c25a742f859ba80",
+        "name": "gotoLogin",
+        "func": "msg.payload = { \"tab\": \"Login\" };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 460,
+        "wires": [
+            [
+                "efc11121ded721a1"
+            ]
+        ]
+    },
+    {
+        "id": "efc11121ded721a1",
+        "type": "ui_ui_control",
+        "z": "6c25a742f859ba80",
+        "name": "Login",
+        "events": "all",
+        "x": 590,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "29c0cd14a3885f82",
+        "type": "firebase.once",
+        "z": "6c25a742f859ba80",
+        "name": "read database",
+        "firebaseconfig": "c827c3c36c5891f1",
+        "childpath": "/UserArray",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 660,
+        "y": 340,
+        "wires": [
+            [
+                "f43e525f66b6d10f"
+            ]
+        ]
+    },
+    {
+        "id": "8d695e92338ab3c9",
+        "type": "function",
+        "z": "6c25a742f859ba80",
+        "name": "setInfo",
+        "func": "global.set(\"RecoverUsername\",msg.payload.Username);\nglobal.set(\"newPassword\",msg.payload.newPassword);\nglobal.set(\"confirmPassword\",msg.payload.confirmPassword);",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7d2061e9b45b3965",
+        "type": "firebase modify",
+        "z": "6c25a742f859ba80",
+        "name": "add database",
+        "firebaseconfig": "c827c3c36c5891f1",
+        "childpath": "/UserArray",
+        "method": "update",
+        "value": "msg.payload",
+        "priority": "msg.priority",
+        "x": 1620,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1836dc165dec9222",
+        "type": "function",
+        "z": "6c25a742f859ba80",
+        "name": "checkValid",
+        "func": "var data = msg.payload;\nif (data === \"<font color=\\\"green\\\">Your password has been reset successfully.</font>\"){\n    return msg;\n}\nelse{\n    return null;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 240,
+        "wires": [
+            [
+                "0dc61bc6f85caac6"
+            ]
+        ]
+    },
+    {
+        "id": "0dc61bc6f85caac6",
+        "type": "firebase.once",
+        "z": "6c25a742f859ba80",
+        "name": "read database",
+        "firebaseconfig": "c827c3c36c5891f1",
+        "childpath": "/UserArray",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 1180,
+        "y": 240,
+        "wires": [
+            [
+                "ecb5b7b35c4e36ba"
+            ]
+        ]
+    },
+    {
+        "id": "ecb5b7b35c4e36ba",
+        "type": "function",
+        "z": "6c25a742f859ba80",
+        "name": "Update database",
+        "func": "var users = msg.payload;\nvar username = global.get(\"RecoverUsername\");\nvar newpassword = global.get(\"newPassword\");\n\nfor (var key in users) {\n    if (users.hasOwnProperty(key)) {\n        if (users[key].Username === username) {\n            users[key].Password = newpassword;\n            msg.payload = users;\n        }\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1410,
+        "y": 240,
+        "wires": [
+            [
+                "7d2061e9b45b3965"
+            ]
+        ]
+    }
+]

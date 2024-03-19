@@ -1,0 +1,7 @@
+# Wokwi Library List
+# See https://docs.wokwi.com/guides/libraries
+
+DHT Sensors Non-Blocking
+DHT sensor library for ESPx
+TinyGPSPlus-ESP32
+PubSubClient
